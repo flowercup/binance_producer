@@ -27,7 +27,7 @@ class BinanceManager
      */
     private $coins;
 
-    public function __construct(string $rabbitUrl = '10.2.113.62', array $coins = ['BTCUSDT', 'EOSBTC'])
+    public function __construct(?string $rabbitUrl = '10.2.113.62', ?array $coins = ['BTCUSDT', 'EOSBTC'])
     {
         $this->binanceApi = new API();
         $this->rabbitConnection = new AMQPStreamConnection($rabbitUrl, 5672, 'guest', 'guest');

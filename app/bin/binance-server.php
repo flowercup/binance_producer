@@ -1,1 +1,0 @@
-<?phprequire dirname(__DIR__) . '/vendor/autoload.php';use BinanceProducer\Api\Binance;$rabbitURL = '10.2.113.62';$api = new Binance($rabbitURL);$api->startStream();

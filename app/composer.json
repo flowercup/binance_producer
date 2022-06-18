@@ -6,6 +6,8 @@
     },
     "require": {
         "php-amqplib/php-amqplib": ">=3.0",
-        "textalk/websocket": "^1.5"
+        "textalk/websocket": "^1.5",
+        "jaggedsoft/php-binance-api": "^0.5.28",
+        "guzzlehttp/guzzle": "7.0"
     }
 }
