@@ -1,6 +1,5 @@
 FROM php:7.4-cli
 
-ENV RABBIT_URL '10.2.113.62'
 RUN mkdir -p /home/www-data && \
     chown www-data:www-data /home/www-data
 COPY --chown=www-data:www-data ./app /application
